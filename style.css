@@ -13,6 +13,12 @@ h1, h2, h3, h4, h5, h6 {
     color: #4aaaa5;
 }
 
+h3 {
+    font-size: 1.17em;
+    font-weight: bold;
+    line-height: 1.875;
+}
+
 header, .about-me, .portfolio, .contact {
     background-color: #fff;
 }
@@ -60,11 +66,16 @@ footer p {
     padding-top: 0;
     padding-bottom: 0;
 }
-.navbar .container {
-    padding: 0;
+
+.bg-light {
+    background-color: #fff !important;
 }
 
 .navbar-light .navbar-brand {
+    color: #fff;
+}
+
+.navbar-light .navbar-brand:hover {
     color: #fff;
 }
 
@@ -72,7 +83,7 @@ footer p {
     display: inline-block;
     color: #fff;
     background-color: #4aaaa5;
-    padding: 28px;
+    padding: 28px 45px;
     margin: 0;
     font-size: 22px;
     transition: all 0.3s ease-in;
@@ -84,7 +95,9 @@ footer p {
 
 .about-me, .portfolio, .contact {
     margin-top: 40px;
+    margin-right: 0;
     margin-bottom: 40px;
+    margin-left: 0;
     padding: 45px 30px;
     line-height: 1.875;
     border: 1px solid #ddd;
@@ -109,11 +122,11 @@ footer p {
     bottom: 65px;
     left: 0;
     right: 0;
-    transition: all 0.3s ease-in;
+    transition: all 0.4s ease-out;
 }
 
 figure:hover figcaption {
-    bottom: 45px;
+    bottom: 32px;
 }
 
 
